@@ -1,0 +1,248 @@
+/*
+INFO/CS 1300
+Fall 2016
+Carrie Huang
+Assignment04
+*/
+
+/****************************/
+/*resets and global styling */
+/****************************/
+
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', serif;
+    font-size: 0.9em;
+}
+
+p {
+    font-size: 100%;
+}
+
+/**********************/
+/* styling by section */
+/**********************/
+
+#top {
+    background-color:cadetblue;
+    height: 4em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+	z-index: 1;
+}
+
+#banner {
+    color: white;
+    height: 1.5em;
+    width: 100%;
+	display: block; 
+	float: left; 
+}
+
+#banner > h1 {
+    /* border: solid 1px white; */
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-top: 0.5em;
+	text-align: left;
+}
+
+#nav_bar {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-top: 0.5em;
+	float: right; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+	padding-right: 10em; 
+}
+
+li {
+    float: left;
+	margin-right: 2em;
+    text-align: center;
+	color: white; 
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+	color: white; 
+}
+
+li a:hover {
+    color: beige;
+}
+
+#top1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+	margin-top: 4em;
+ 
+}
+
+#top1 > img {
+    width: 100%;
+	
+}
+
+#top2 {
+    margin-top: -10em;
+	margin-left: 8em; 
+    position: absolute;
+    width: 100%;
+	z-index: 0;
+}
+
+#top2 h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+	color: white;
+	font-size: 3em; 
+}
+
+#container {
+    width: 100%;
+}
+
+#content {
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+	padding-top: 0.5em;
+}
+
+img{
+    display: block;
+	width: 90%;
+	max-width: 2000px; 
+	min-width: 300px;
+    padding-bottom: 2%; 
+	margin: auto;
+}
+
+#footer {
+    background-color: cadetblue;
+    color: #ffffff;
+    margin-bottom: 0;
+    width: 100%;
+	margin-top: 5em; 
+}
+
+#footer > p {
+    height: 2em;
+    margin-bottom: -1em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    #content {
+        width: 95%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #banner > h1 {
+		padding-left: 1em; 
+	}
+	
+	ul {
+		padding-right: 2em; 
+	}
+
+	#top2 {
+		margin-top: -7em;
+		margin-left: 3em; 
+	}
+	
+	#top2 h1, h2 {
+		font-size: 2em; 
+	}
+    
+    #content {
+        max-width: 80%;
+    }
+	
+	img{
+		width: 85%
+	}
+}
+
+@media screen and (max-width: 480px) {
+    #banner > h1 {
+		text-align: center; 
+	}
+	
+	#nav_bar {
+		padding-top: 2.5em;
+		width: 100%;
+	}
+	
+	li{
+		display: block;
+		background-color:white;
+		border-bottom: solid 2px; 
+		border-bottom-color: cadetblue; 
+		color: cadetblue;
+		padding-bottom: 0.5em; 
+		padding-top: 0.5em; 
+		width: 100%;
+		text-decoration: none;
+		
+	}
+	
+	li a {
+		display: block;
+		color: cadetblue;
+		padding-bottom: 0.5em; 
+		padding-top: 0.5em; 
+		text-decoration: none;
+	}
+	
+	li a:hover {
+		background-color: aliceblue;
+		color: cadetblue;
+	}
+	
+    #top1 > img {
+        display: none;
+    }
+    
+    #top2 {
+        display: block;
+        margin-left: 1.5em;
+    }
+	
+	#content {
+		padding-top: 7em;
+        max-width: 70%;
+		margin-left: auto; 
+		margin-right: auto; 
+    }
+	
+	img{
+		display: none;
+	}
+}
