@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<script src="js/main.js"></script>
 	</head>
 
 	<body>
@@ -27,9 +28,17 @@
 
 		</div><!-- end of top div -->
 
-    <object data="Carrie_Huang_Resume.pdf" type="application/pdf" width= 100% height= 600px>
-      <p>Alternative text - include a link <a href="Carrie_Huang_Resume.pdf">to the PDF!</a></p>
-    </object>
+		<div id="slideshow">
+			<div id="button_container">
+				<button onclick="image_previous()">Previous</button>
+				<button onclick="image_forward()">Next</button>
+			</div><!-- end of button_container div -->
+
+			<div id="image_container">
+				<img id="port" src="images/Carrie_Huang_01.jpg" alt="Port1">
+				<!--image credit of all photos: Carrie Huang-->
+			</div><!-- end of image_container div -->
+		</div>
 	</body>
 
 </html>

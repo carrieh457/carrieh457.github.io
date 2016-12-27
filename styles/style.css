@@ -132,6 +132,12 @@ li a:hover {
 	padding-top: 0.5em;
 }
 
+#slideshow{
+	padding-top: 5em;
+}
+
+
+
 img{
     display: block;
 	width: 90%;
