@@ -136,7 +136,10 @@ li a:hover {
 	padding-top: 5em;
 }
 
-
+#port{
+	max-height: 30em; 
+	width: auto; 
+}
 
 img{
     display: block;

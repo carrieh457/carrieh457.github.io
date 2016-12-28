@@ -8,7 +8,7 @@
 /*global window, document*/
 
 var index = 0; 
-var portfolio_images = ["Carrie_Huang_01.jpg", "Carrie_Huang_02.JPG", "Carrie_Huang_03.JPG", "Carrie_Huang_04.jpg", "Carrie_Huang_05.jpg", "Carrie_Huang_06.JPG", "Carrie_Huang_08.JPG", "Carrie_Huang_10.jpg", "Carrie_Huang_11.JPG", "Carrie_Huang_12.JPG", "Carrie_Huang_13.jpg", "Carrie_Huang_14.jpg", "Carrie_Huang_15.jpg", "Carrie_Huang_23.JPG", "Carrie_Huang_24.JPG", "Carrie_Huang_27.JPG", "IMG_0075.JPG", "IMG_0076 copy.jpg", "IMG_0173.JPG"];
+var portfolio_images = ["Carrie_Huang_01.jpg", "Carrie_Huang_02.JPG", "Carrie_Huang_04.jpg", "Carrie_Huang_05.jpg", "Carrie_Huang_06.JPG", "Carrie_Huang_08.JPG", "Carrie_Huang_10.jpg", "Carrie_Huang_11.JPG", "Carrie_Huang_12.JPG", "Carrie_Huang_13.jpg", "Carrie_Huang_14.jpg", "Carrie_Huang_15.jpg", "Carrie_Huang_23.JPG", "Carrie_Huang_24.JPG", "Carrie_Huang_27.JPG", "IMG_0075.JPG", "IMG_0076 copy.jpg", "IMG_0173.JPG"];
 //image credit of all photos: Carrie Huang
 var image_captions = ["Taken at Shanghai, China 2015", "Taken at the beaches of Qingdao, China 2015", "A boat at the beaches of Qingdao, China 2015", "Taken at Yi He Yuan at Beijing, China 2015"]
 
